@@ -13,7 +13,7 @@ const Teamlist = () => {
         <div className="teambox">
         {listdata.map((datas) => (
         <div className="teamcard">
-          <img src={datas.image} width={300} height={300}/>
+          <img src={datas.image} width={300} height={300} alt='memberimages'/>
           <div className="cardcontent">
             <h3>{datas.name}</h3>
             <p>vbvyubuhbuhuhuu</p>

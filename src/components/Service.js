@@ -11,7 +11,7 @@ const Service = () => {
         <div className="servicebox">
           <div className="card">
           <div className="image">
-          <img src={require('./assets/diabetes.png')} width={90} height={80}/>
+          <img src={require('./assets/diabetes.png')} alt='serviceimgages' width={90} height={80}/>
           </div>
           <h5>Lab Test</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ut voluptatum accusantium perfere</p>
@@ -19,7 +19,7 @@ const Service = () => {
           </div>
           <div className="card">
           <div className="image">
-          <img src={require('./assets/eldercare.png')} width={90} height={80}/>
+          <img src={require('./assets/eldercare.png')} alt='serviceimgages' width={90} height={80}/>
           </div>
           <h5>Elder Care</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ut voluptatum accusantium perfere</p>
@@ -27,7 +27,7 @@ const Service = () => {
           </div>
           <div className="card">
           <div className="image">
-          <img src={require('./assets/counselling.png')} width={90} height={80}/>
+          <img src={require('./assets/counselling.png')} alt='serviceimgages' width={90} height={80}/>
           </div>
           <h5>Counselling</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ut voluptatum accusantium perfere</p>
@@ -35,7 +35,7 @@ const Service = () => {
           </div>
           <div className="card">
           <div className="image">
-          <img src={require('./assets/physiothraphy.png')} width={90} height={80}/>
+          <img src={require('./assets/physiothraphy.png')} alt='serviceimgages' width={90} height={80}/>
           </div>
           <h5>Physiotheraphy</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ut voluptatum accusantium perfere</p>
@@ -43,7 +43,7 @@ const Service = () => {
           </div>
           <div className="card">
           <div className="image">
-          <img src={require('./assets/diabetes.png')} width={90} height={80}/>
+          <img src={require('./assets/diabetes.png')} alt='serviceimgages' width={90} height={80}/>
           </div>
           <h5>Diabetes care</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ut voluptatum accusantium perfere</p>
@@ -51,7 +51,7 @@ const Service = () => {
           </div>
           <div className="card">
           <div className="image">
-          <img src={require('./assets/nursing.png')} width={90} height={80}/>
+          <img src={require('./assets/nursing.png')} alt='serviceimgages' width={90} height={80}/>
           </div>
           <h5>Nursing</h5>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ut voluptatum accusantium perfere</p>

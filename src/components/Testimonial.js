@@ -13,10 +13,6 @@ const Testimonial = () => {
         <h2>What members are saying</h2>
       </div>
       <div className="slider-container">
-        {/* <blockquote>
-          <img className="top-quote quote" src={Quote} alt="quote"/>
-          <img className="bottom-quote quote" src={Quote} alt="quote"/>
-        </blockquote> */}
         <Splide className="splide"
           options={{
             perPage: 1,
@@ -28,7 +24,7 @@ const Testimonial = () => {
         >
           {reviews.map((review) => (
             <SplideSlide key={review.id} className="spliderbox">
-              <img className="review-img" src={review.image} alt=""  width={150} height={150}/>
+              <img className="review-img" src={review.image} alt="testimonialsimages"  width={150} height={150}/>
               <div className="content">
                 <p className="text">{review.text}</p>
                 <div className="info">

@@ -11,7 +11,7 @@ function NavScrollExample() {
       <Container fluid>
         {/* <Navbar.Brand href="#">Navbar scroll</Navbar.Brand> */}
         <div className="logo">
-            <img src={logoimg} width={80} height={50}/>
+            <img src={logoimg} alt='logoimages' width={80} height={50}/>
         </div>
         <Navbar.Toggle aria-controls="navbarScroll"/>
         <Navbar.Collapse>

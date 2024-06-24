@@ -20,7 +20,7 @@ const Home = () => {
           </div>
           <div className="col-md-6">
           <div className="homeright">
-            <img src={require('./assets/homeimg.png')} />
+            <img src={require('./assets/homeimg.png')} alt='homeimage'/>
           </div>
           </div>
         </div>

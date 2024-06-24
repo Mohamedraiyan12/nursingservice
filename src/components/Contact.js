@@ -17,15 +17,11 @@ const Contact = () => {
             <div class="col-md-6 mb-4">
               {contactimg.map((images) =>(
                 <div className='contactleft'>
-                  <img src={images.image} alt=""  width={500} height={500}/>
+                  <img src={images.image} alt="contactimages"  width={500} height={500}/>
                   <div className="outercontent">
                   </div> 
                 </div>
               ))}
-              {/* <div className="contactleft">
-                <img src={require('./assets/slide3.jpg')} width={500} height={500}/>
-                <div className="outercontent">
-                </div> */}
               </div>
             <div class="col-md-6">
               <div class="headingcontact">

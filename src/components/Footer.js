@@ -1,5 +1,6 @@
 import React from 'react'
 import './Footer.css';
+import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <section className='footer'>
@@ -7,7 +8,7 @@ const Footer = () => {
         <div className="footercontent">
             <div className="left1">
             <h3><span>OUR</span> ADDRESS</h3>
-             <img src={require('./assets/logo.png')} width="60px" height="60px"/>
+             <img src={require('./assets/logo.png')} width="60px" height="60px" alt='logoimages'/>
              <div class="iconscontent">
                 <p><i class="bi bi-envelope-fill"></i>  Construction@examples.com</p>
                 <p><i class="bi bi-phone-fill"></i> +124 421 454 6623</p>
@@ -46,10 +47,10 @@ const Footer = () => {
               <h3><span>OUR</span> SOCIAL</h3>
               </div>
               <div className="socialmedia">
-              <a href=''><i class="bi bi-whatsapp"></i></a>
-              <a href=''><i class="bi bi-linkedin"></i></a>
-              <a href=''><i class="bi bi-twitter-x"></i></a>
-              <a href=''><i class="bi bi-facebook"></i></a>
+              <Link path to= './' className='icons'><i class="bi bi-whatsapp"></i></Link>
+              <Link path to= './' className='icons'><i class="bi bi-linkedin"></i></Link>
+              <Link path to ='./' className='icons'><i class="bi bi-twitter-x"></i></Link>
+              <Link path to= './' className='icons'><i class="bi bi-facebook"></i></Link>
               </div>
             </div>
         </div>
