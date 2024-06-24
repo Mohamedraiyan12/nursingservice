@@ -1,0 +1,95 @@
+.teamcontent{
+    background: #FFFFFF;
+    padding: 60px;
+    text-align: center;
+}
+.teamheading{
+    background: transparent;
+    padding: 20px 10px 40px 10px;
+}
+.teamheading h5{
+    display: inline;
+    border-bottom:2px solid #01CB89;
+    font-size: 20px;
+    padding-bottom: 1px;
+    font-weight: 600;
+}
+.teamheading h2{
+    margin-top: 10px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #1B9C85;
+}
+.teambox{
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.teamcard{
+    position: relative;
+    margin-bottom:50px;
+    box-shadow: 5px 5px 20px #01CB89;
+    overflow: hidden;
+    border-radius: 6px;
+}
+.teamcard img{
+    overflow: hidden;
+    transition: .5s;
+    width: 300px;
+    height: 350px;
+    border-radius: 6px;
+}
+.cardcontent{
+    height: 40px;
+    width: 300px;
+    padding: 6px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0px;
+    background: rgb(27,27,27, .5);
+    color: #FFFFFF;
+    transition: .5s;
+}
+h3{
+    font-size: 20px;
+    color: aliceblue;
+}
+p{
+    margin: 10px;
+    font-size: 10px;
+}
+.teamcard:hover .cardcontent{
+    height: 70px;
+    background-color: #1B9C85;
+}
+.cardcontent:hover p{
+    color: #FFFFFF;
+}
+.teamcard:hover img{
+    transform: scale(1.1);
+}
+@media screen  and (max-width: 480px){
+    .teamcard img{
+        transition: .5s;
+        width: 300px;
+        height: 320px;
+        border-radius: 6px;
+    }
+    .cardcontent{
+        height: 40px;
+        width: 300px;
+        padding: 6px;
+        box-sizing: border-box;
+        position: absolute;
+        bottom: 0px;
+        background: rgb(27,27,27, .5);
+        color: #FFFFFF;
+        transition: .5s;
+    }
+    .teamcontent{
+        background: #FFFFFF;
+        padding: 20px;
+        text-align: center;
+    }
+}

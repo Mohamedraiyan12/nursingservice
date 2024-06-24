@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.headertop{
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.413);
+}
+.headertop i{
+    font-size: 20px;
+    color: #1B9C85;
+}
+.lefttop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.righttop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lefttop a{
+    text-decoration: none;
+    color: black;
+}
+.lefttop a{
+    font-size: 13px;
+}
+.righttop span{
+    font-size: 13px;
+}

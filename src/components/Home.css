@@ -1,0 +1,44 @@
+.homecontent{
+    padding: 50px;
+}
+.homeouter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeleft{
+    width: 100%;
+    margin-bottom: 50px;
+}
+.homeleft h3{
+    letter-spacing: 3px;
+    font-size: 39px;
+    font-weight: 800;
+    color: #1B9C85;
+}
+.homeleft h3 span{
+    color: #01CB89;
+}
+.homeleft p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    color: black;
+}
+.homeleft button{
+    padding: 10px 20px 10px 20px;
+    border: none;
+    background: #01CB89;
+    color: white;
+    border-radius: 8px;
+}
+.homeleft button:hover{
+    background: transparent;
+    border: 1px solid #01CB89;
+    box-shadow: 1px 1px 1px 1px #01CB89;
+    color: #1B9C85;
+}
+ .homeright img{
+    text-align: center;
+    width: 100%;
+}
+
