@@ -1,4 +1,4 @@
-import imgcontact from './assets/slide2.jpg'
+import imgcontact from './assets/slide3.jpg'
 export const contactimg = [
     {
       id: 1,

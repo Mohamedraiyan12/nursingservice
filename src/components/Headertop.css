@@ -3,7 +3,7 @@
     margin: 0;
 }
 .headertop{
-    padding: 10px 10px 10px 10px;
+    padding: 10px 15px 10px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -18,12 +18,27 @@
     justify-content: center;
     align-items: center;
 }
+.centertop .topbtn{
+    padding: 5px 15px 5px 15px;
+    background: #1B9C85;
+    border: none;
+    outline: none;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 4px;
+    transition: .5s;
+}
+.topbtn:hover{
+    border: 1px solid #1B9C85;
+    transform: scale(1.1);
+}
 .righttop{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .lefttop a{
+    margin-left: 5px;
     text-decoration: none;
     color: black;
 }
@@ -31,5 +46,6 @@
     font-size: 13px;
 }
 .righttop span{
+    margin-left: 5px;
     font-size: 13px;
 }

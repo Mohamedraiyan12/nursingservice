@@ -1,17 +1,16 @@
-.navlinks li{
+/* .navlinks li{
     display: inline-block;
     padding: 15px;
     color: black;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 600;
 }
 .outernavbars{
     padding: 8px;
     background: white;
     /* position: absolute;
-    z-index: 3; */
-}
+    z-index: 3; 
+}*/
 .logo{
     width: 35%;
 }
@@ -20,15 +19,10 @@
     justify-content: center;
     align-items: center;
 }
-.home, .service, .contact{
-    text-align: center;
-    text-decoration: none;
-}
 .navlinks li:hover{
     border-bottom: 3px solid #01CB89;
 }
 .btn{
-    margin: 15px;
     padding: 10px 20px 10px 20px;
     background: #01CB89;
     border: none;
@@ -38,8 +32,16 @@
     font-weight: 600;
 }
 .btn:hover{
-    color: black;
+    color: #1B9C85;
     font-weight: 600;
     background: transparent;
     border: 1px solid  #01CB89;
 }
+@media  only screen and (max-width:700px) {
+    .navlinks
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+} */

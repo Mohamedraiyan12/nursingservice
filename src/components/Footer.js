@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css';
-import { Link } from 'react-router-dom';
 const Footer = () => {
   return (
     <section className='footer'>
@@ -10,9 +9,9 @@ const Footer = () => {
             <h3><span>OUR</span> ADDRESS</h3>
              <img src={require('./assets/logo.png')} width="60px" height="60px" alt='logoimages'/>
              <div class="iconscontent">
-                <p><i class="bi bi-envelope-fill"></i>  Construction@examples.com</p>
-                <p><i class="bi bi-phone-fill"></i> +124 421 454 6623</p>
-                <p><i class="bi bi-geo-alt-fill"></i> 1798 Pretty View Lane, California</p>
+                <p><i class="bi bi-envelope-fill"></i> clinic@gmail.com</p>
+                <p><i class="bi bi-phone-fill"></i> +91 7887898768</p>
+                <p><i class="bi bi-geo-alt-fill"></i> 1798 North street, Tenkasi</p>
               </div>
             </div>
             <div className="left4">
@@ -27,6 +26,10 @@ const Footer = () => {
             </ul>
             <ul>
               <li>wednesday</li>
+              <li>7:00 am - 7:00pm</li>
+            </ul>
+            <ul>
+              <li>Thursday</li>
               <li>7:00 am - 7:00pm</li>
             </ul>
             <ul>
@@ -47,10 +50,6 @@ const Footer = () => {
               <h3><span>OUR</span> SOCIAL</h3>
               </div>
               <div className="socialmedia">
-              <Link path to= './' className='icons'><i class="bi bi-whatsapp"></i></Link>
-              <Link path to= './' className='icons'><i class="bi bi-linkedin"></i></Link>
-              <Link path to ='./' className='icons'><i class="bi bi-twitter-x"></i></Link>
-              <Link path to= './' className='icons'><i class="bi bi-facebook"></i></Link>
               </div>
             </div>
         </div>
@@ -59,7 +58,7 @@ const Footer = () => {
       <div class="line">
       </div>
       <div class="copyright">
-        <p>© All rights reserved. Template designed by <span>Bootstrapious.</span></p>
+        <p>Copyright © Home care - All Rights Reserved.</p>
       </div>
     </div>
 </section>
