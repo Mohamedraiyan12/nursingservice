@@ -50,6 +50,10 @@ const Footer = () => {
               <h3><span>OUR</span> SOCIAL</h3>
               </div>
               <div className="socialmedia">
+                <a href='#'><i class="bi bi-whatsapp"></i></a>
+                <a href='#'><i class="bi bi-facebook"></i></a>
+                <a href='#'><i class="bi bi-linkedin"></i></a>
+                <a href='#'><i class="bi bi-twitter-x"></i></a>
               </div>
             </div>
         </div>

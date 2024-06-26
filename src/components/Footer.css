@@ -53,6 +53,9 @@ justify-content: space-between;
 align-items: center;
 
 }
+.socialmedia a{
+    color: #FFFFFF;
+}
 .footercontent .left4 ul li span{
     color: black;
 }

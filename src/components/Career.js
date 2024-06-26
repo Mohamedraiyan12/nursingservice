@@ -15,7 +15,7 @@ const Career = () => {
             <div class="col-md-6 mb-4">
                 <div className='careerleft'>
                   <img src={(require('./assets/carreerpage.jpg'))}alt="contactimages"  width={500} height={500}/>
-                  <div className="outercontent">
+                  <div className="careercontent">
                   </div> 
                 </div>
               </div>
