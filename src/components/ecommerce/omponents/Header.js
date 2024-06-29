@@ -1,16 +1,6 @@
 // import Search from "./Search";
 // import Wholesale from './Wholesale'
-import { useNavigate } from 'react-router-dom';
 export default function Header() {
-    const MyComponent = () => {
-        const navigate = useNavigate();
-      
-        const redirectToAnotherComponent = () => {
-          navigate('/path-to-another-component');
-        };
-      
-        // Rest of your component logic...
-      }
     return (
         <section className="header">
             <div className="container">
