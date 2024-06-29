@@ -9,11 +9,9 @@ export default function Productcard() {
               src={require('../images/products/1.jpg')}
               alt='images' width={200}/>
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">
-                <a href="">Poduct name</a>
-              </h5>
+            <h5 class="card-title">Product Name</h5>
               <p class="card-text">$245.67</p>
-              <a href="#" id="add_btn" class="btn btn-block">Add to card</a>
+              <a href="/" id="add_btn" class="btn btn-block">Add to card</a>
             </div>
           </div>
         </div>
@@ -25,11 +23,9 @@ export default function Productcard() {
              alt='images' width={200}
             />
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">
-                <a href="">Product name</a>
-              </h5>
+            <h5 class="card-title">Product Name</h5>
               <p class="card-text">$245.67</p>
-              <a href="#" id="add_btn" class="btn btn-block">Add to cart</a>
+              <a href="/" id="add_btn" class="btn btn-block">Add to cart</a>
             </div>
           </div>
         </div>
@@ -42,11 +38,9 @@ export default function Productcard() {
              alt='images' width={200}
             />
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">
-                <a href="">Product name</a>
-              </h5>
+            <h5 class="card-title">Product Name</h5>
               <p class="card-text">$245.67</p>
-              <a href="#" id="add_btn" class="btn btn-block">Add to cart</a>
+              <a href="/" id="add_btn" class="btn btn-block">Add to cart</a>
             </div>
           </div>
         </div>
@@ -60,11 +54,9 @@ export default function Productcard() {
              alt='images' width={200}
             />
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">
-                <a href="">Product name</a>
-              </h5>
+            <h5 class="card-title">Product Name</h5>
               <p class="card-text">$245.67</p>
-              <a href="#" id="add_btn" class="btn btn-block">Add to cart</a>
+              <a href="/" id="add_btn" class="btn btn-block" target = "_blank">Add to cart</a>
             </div>
           </div>
         </div>
@@ -77,11 +69,9 @@ export default function Productcard() {
              alt='images' width={200}
             />
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">
-                <a href="">Product name</a>
-              </h5>
+            <h5 class="card-title">Product Name</h5>
               <p class="card-text">$245.67</p>
-              <a href="#" id="add_btn" class="btn btn-block">Add to cart</a>
+              <a href="/" id="add_btn" class="btn btn-block">Add to cart</a>
             </div>
           </div>
         </div>
@@ -94,11 +84,9 @@ export default function Productcard() {
              alt='images' width={200}
             />
             <div class="card-body d-flex flex-column">
-              <h5 class="card-title">
-                <a href="">Product name</a>
-              </h5>
+              <h5 class="card-title">Product Name</h5>
               <p class="card-text">$245.67</p>
-              <a href="#" id="add_btn" class="btn btn-block">Add to cart</a>
+              <a href="/" id="add_btn" class="btn btn-block">Add to cart</a>
             </div>
           </div>
         </div>
