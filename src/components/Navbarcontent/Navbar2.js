@@ -20,7 +20,7 @@ function Navbar2() {
             <Link to = '/contact' className ='contact'><li>Contact us</li></Link>
           </Nav>
           <div className="btnouter">
-          <a href ='/ecommerce'><button className ='purchasebtn' id='btn'><span><i class="bi bi-bag-heart-fill"></i></span> Buy products</button></a>
+          <Link to ='/ecommerce'><button className ='purchasebtn' id='btn'><span><i class="bi bi-bag-heart-fill"></i></span> Buy products</button></Link>
           </div>
         </Navbar.Collapse>
       </Container>
