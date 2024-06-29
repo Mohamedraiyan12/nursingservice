@@ -24,7 +24,7 @@ export default function Header() {
                     </div>
                     <div className="col-md-4">
                      <div className="rightheader">
-                     <button className='btn' onClick={redirectToAnotherComponent}>Wholesale</button>
+                     <button className='btn' >Wholesale</button>
                      <button className='btn'>Retail </button>
                      <i class="bi bi-bag-plus "></i>
                      <span class="ml-1" id="cart_count">2</span>
