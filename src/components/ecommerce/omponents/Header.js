@@ -1,5 +1,5 @@
-// import Search from "./Search";
-// import Wholesale from './Wholesale'
+
+import { Link } from 'react-router-dom'
 export default function Header() {
     return (
         <section className="header">
