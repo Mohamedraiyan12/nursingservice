@@ -1,0 +1,63 @@
+.career{
+    padding: 80px 0px 80px 0;
+    background: #F4F9FC;
+}
+.careerpage img{
+    height: 200px;
+    overflow: hidden;
+    width: 100%;
+}
+.careerpage{
+    position: relative;
+}
+.careerinsidecontent{
+    width: 100%;
+    top: 40%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.careerinsidecontent h2{
+    color: black;
+    letter-spacing: 3px;
+    margin: 10px;
+    font-weight: 800;
+}
+.applybtn{
+    outline: none;
+    border: none;
+    color: #F4F9FC;
+    border-radius:5px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 25px 15px 25px;
+    background: #01CB89;
+}
+.applybtn:hover{
+ background: transparent;
+ color: black;
+ border: 1px solid #1B9C85;
+}
+.careerinsidecontent button{
+    margin: 10px;
+}
+@media screen  and (max-width: 800px){
+    .careerinsidecontent{
+        text-align: center;
+        width: 100%;
+        top: 20%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .careerinsidecontent h2{
+        color: black;
+        font-size: 25px;
+        margin: 10px;
+        font-weight: 800;
+    }
+}

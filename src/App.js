@@ -9,23 +9,27 @@ import Career from './components/Career'
 import Nopage from './components/Nopage'
 import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Maybeshownavbar from './components/Maybeshownavbar';
-function App() {
+import Ecommerce  from './components/ecommerce/Ecommerce'
 
+function App() {
   return (
     <>  
         <Router>
-        <Headertop />
         <Maybeshownavbar>
+        <Headertop />
         <Navbar2 />
         </Maybeshownavbar>
         <Routes> 
-          <Route path ='/' element={<Home />}></Route>
+          <Route path='/' element={<Home />}></Route>
           <Route path ='/service' element={<Service />}></Route>
           <Route path ='/contact' element={<Contact />}></Route>
           <Route path='/career' element ={<Career />}></Route>
-          <Route path ='/*' element ={<Nopage />}></Route>
+          <Route path ='/ecommerce' element ={<Ecommerce />}></Route>
+          <Route path ='*' element ={<Nopage />}></Route>
         </Routes>
+        <Maybeshownavbar>
         <Footer />
+        </Maybeshownavbar>
        </Router>
     </>
   )

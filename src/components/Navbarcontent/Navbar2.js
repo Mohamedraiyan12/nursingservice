@@ -16,11 +16,11 @@ function Navbar2() {
         <Navbar.Collapse>
           <Nav className="me-auto navlinks">
             <Link to ='/' className='home'><li>Home</li></Link>
-            <Link to = '/service' className='service'><li>Services</li></Link>
-            <Link to = '/contact' className='contact'><li>Contact us</li></Link>
+            <Link to = '/service' className ='service'><li>Services</li></Link>
+            <Link to = '/contact' className ='contact'><li>Contact us</li></Link>
           </Nav>
           <div className="btnouter">
-          <button className ='btn' id='contact'>Buy purchase</button>
+          <a href ='/ecommerce'><button className ='btn' id='contact'>Buy products</button></a>
           </div>
         </Navbar.Collapse>
       </Container>
