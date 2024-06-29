@@ -2,6 +2,7 @@ import React from 'react'
 import './Service.css'
 const Service = () => {
   return (
+   <>
     <section className='servicecontent' id='service'>
       <div className="container">
         <div className="serviceheading">
@@ -60,6 +61,7 @@ const Service = () => {
         </div>
         </div>
     </section>
+    </>
   )
 }
 export default Service;

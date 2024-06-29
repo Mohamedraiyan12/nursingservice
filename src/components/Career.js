@@ -40,7 +40,7 @@ const Career = () => {
                       <div className="messages">
                         <textarea class="msg" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                     </div>
-                    <button type="submit"  id="btn" class="btn btn-primary" onClick={notify}>Apply Now</button>
+                    <button type="submit"  id="btn" class="btn" onClick={notify}>Apply Now</button>
                     <ToastContainer />
                   </form>
               </div>

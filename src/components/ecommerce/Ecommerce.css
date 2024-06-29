@@ -168,7 +168,9 @@ footer p{
     transform: rotate(360deg);
   }
 }
-
+.rightheader a{
+  color: #1B9C85;
+}
 /* Cart */
 
 .cart-item {

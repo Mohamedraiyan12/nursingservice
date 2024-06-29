@@ -28,16 +28,16 @@
 }
 .card:hover{
     border: 1px solid #1B9C85;
-    transform: translateY(-13px);
+    transform: translateY(-6px);
 }
 .servicebox .card{
-    border-radius: 7px;
+    border-radius: 10px;
     width: 300px;
     padding: 25px;
-    margin: 15px;
+    margin: 10px;
 }
 .card{
-    transition: transform 0.6s ease;
+    transition: transform 0.5s ease;
 }
 .card h5{
     letter-spacing: 2px;

@@ -7,30 +7,34 @@ import Headertop from './components/Headertop'
 import Footer from './components/Footer'
 import Career from './components/Career'
 import Nopage from './components/Nopage'
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Maybeshownavbar from './components/Maybeshownavbar';
-import Ecommerce  from './components/ecommerce/Ecommerce'
+import Ecommerce from './components/ecommerce/Ecommerce'
+import Wholesale from './components/ecommerce/omponents/Wholesale';
+import Retail from './components/ecommerce/omponents/Retail';
 
 function App() {
   return (
-    <>  
-        <Router>
+    <>
+      <Router>
         <Maybeshownavbar>
-        <Headertop />
+        <Headertop  />
         <Navbar2 />
         </Maybeshownavbar>
-        <Routes> 
+        <Routes>
           <Route path='/' element={<Home />}></Route>
-          <Route path ='/service' element={<Service />}></Route>
-          <Route path ='/contact' element={<Contact />}></Route>
-          <Route path='/career' element ={<Career />}></Route>
-          <Route path ='/ecommerce' element ={<Ecommerce />}></Route>
-          <Route path ='*' element ={<Nopage />}></Route>
+          <Route path='/service' element={<Service />}></Route>
+          <Route path='/contact' element={<Contact />}></Route>
+          <Route path='/career' element={<Career />}></Route>
+          <Route path='/ecommerce' element={<Ecommerce />}></Route>
+          <Route path='/wholesale' element={<Wholesale />}></Route>
+          <Route path='/retail' element={<Retail />}></Route>
+          <Route path='*' element={<Nopage />}></Route>
         </Routes>
         <Maybeshownavbar>
-        <Footer />
+          <Footer />
         </Maybeshownavbar>
-       </Router>
+      </Router>
     </>
   )
 }

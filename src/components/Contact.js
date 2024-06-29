@@ -3,10 +3,10 @@ import './Contact.css'
 import { contactimg } from './Contactimg';
 import { ToastContainer, toast } from 'react-toastify';
   import 'react-toastify/dist/ReactToastify.css';
-
 const Contact = () => {
   const notify = () => toast("sucessfully sent your request for an appoinment!")
   return (
+  <>
     <section class="contactcontent" id='contact'>
         <div class="container">
           <div className="contactheading">
@@ -41,7 +41,7 @@ const Contact = () => {
                       <div className="messages">
                         <textarea class="msg" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
                     </div>
-                    <button type="submit"  id="btn" class="btn btn-primary" onClick={notify}>SUBMIT NOW</button>
+                    <button type="submit"  id="btn" class="btn"  onClick={notify}>SUBMIT NOW</button>
                     <ToastContainer />
                   </form>
               </div>
@@ -49,6 +49,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
+  </>
   )
 }
 export default Contact;

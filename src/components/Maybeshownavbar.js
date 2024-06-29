@@ -7,7 +7,7 @@ const Maybeshownavbar = ({children}) => {
     const [shownavbar, setshownavbar] = useState(false)
     useEffect(() =>{
         console.log('this is location:',location)
-        if(location.pathname === '/ecommerce')
+        if(location.pathname === '/ecommerce' || location.pathname === '/wholesale' || location.pathname === '/retail' )
             {
                 setshownavbar(false)
             }
@@ -17,7 +17,7 @@ const Maybeshownavbar = ({children}) => {
     },[location])
   return (
     <>
-    <p>{shownavbar && children}</p>
+    {shownavbar && children}
     </>
   )
 }
