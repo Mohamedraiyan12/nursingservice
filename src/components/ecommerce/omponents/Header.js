@@ -24,8 +24,8 @@ export default function Header() {
                     </div>
                     <div className="col-md-4">
                      <div className="rightheader">
-                     <a href ='/wholesale'><button className ='btn' >Wholesale</button></a>
-                     <a href ='/retail'><button className ='btn' >Retail</button></a>
+                     <Link to ='/wholesale'><button className ='btn' >Wholesale</button></Link>
+                     <Link to ='/retail'><button className ='btn' >Retail</button></Link>
                      <i class="bi bi-bag-plus "></i>
                      <span class="ml-1" id="cart_count">2</span>
                      </div>
