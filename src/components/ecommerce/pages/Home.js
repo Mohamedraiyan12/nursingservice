@@ -10,7 +10,7 @@ export function Home() {
         <section id="products" className="container mt-5 my-5">
         <div className="row">
         {products.map((product) => (
-        <Productcard  key={product.key} product={product} />
+        <Productcard  key={product.id} product={product} />
         ))}
         </div>
         </section>

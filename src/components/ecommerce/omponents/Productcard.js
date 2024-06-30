@@ -1,5 +1,7 @@
 import React from 'react'
 const Productcard = ({ product }) => {
+//   const addcart = () => {};
+//   const removecart = () => {};
   return (
     <>
     <div className="col-sm-6 col-md-6 col-lg-3 my-3">
@@ -11,7 +13,7 @@ const Productcard = ({ product }) => {
       <div className="card-body d-flex flex-column">
            <h5 className="card-title">{product.Productname}</h5>
            <p className="card-text">{product.productprice}</p>
-            <a href="/" id="add_btn">Add to card</a>
+           <button id='add_btn'>Add to cart</button>
             </div>
       </div>
       </div>

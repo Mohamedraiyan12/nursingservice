@@ -12,7 +12,8 @@ import Maybeshownavbar from './components/Maybeshownavbar';
 import Ecommerce from './components/ecommerce/Ecommerce'
 import Wholesale from './components/ecommerce/omponents/Wholesale';
 import Retail from './components/ecommerce/omponents/Retail';
-
+import Cart from './components/ecommerce/pages/Cart'
+import Admin from './components/ecommerce/Admin'
 function App() {
   return (
     <>
@@ -29,6 +30,8 @@ function App() {
           <Route path='/ecommerce' element={<Ecommerce />}></Route>
           <Route path='/wholesale' element={<Wholesale />}></Route>
           <Route path='/retail' element={<Retail />}></Route>
+          <Route path='/cart' element={<Cart />}></Route>
+          <Route path ='/admin' element ={<Admin />}></Route>
           <Route path='*' element={<Nopage />}></Route>
         </Routes>
         <Maybeshownavbar>

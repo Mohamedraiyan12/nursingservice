@@ -7,7 +7,7 @@ const Maybeshownavbar = ({children}) => {
     const [shownavbar, setshownavbar] = useState(false)
     useEffect(() =>{
         console.log('this is location:',location)
-        if(location.pathname === '/ecommerce' || location.pathname === '/wholesale' || location.pathname === '/retail' )
+        if(location.pathname === '/ecommerce' || location.pathname === '/wholesale' || location.pathname === '/retail' || location.pathname === '/cart' || location.pathname === '/admin')
             {
                 setshownavbar(false)
             }

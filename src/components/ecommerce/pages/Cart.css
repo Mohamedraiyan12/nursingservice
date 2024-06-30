@@ -1,0 +1,16 @@
+.cart-container{
+    display: flex;
+    flex-direction: column;
+}
+.cartproduct{
+    margin: 10px;
+    box-shadow: 2px 2px 2px gray;
+    display: flex;
+    padding: 2px;
+}
+.cartproduct h5{
+    padding: 10px;
+    letter-spacing: 2px;
+    color: black;
+    font-size: 13px;
+}
