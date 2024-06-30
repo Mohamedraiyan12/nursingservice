@@ -11,7 +11,7 @@ export function Wholesalehome() {
         <section id="products" className="container mt-5 my-5">
         <div className="row">
         {products.map((product) => (
-        <div className="col-sm-12 col-md-6 col-lg-3 my-3 retailcard ">
+        <div className="col-sm-6 col-md-6 col-lg-3 my-3">
         <div className="card p-3 rounded">
         <img
                  className="card-img-top mx-auto"

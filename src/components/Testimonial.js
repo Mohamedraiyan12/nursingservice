@@ -28,13 +28,13 @@ const Testimonial = () => {
               <div className="content">
                 <p className="text">{review.text}</p>
                 <div className="info">
-                  <div className="rating">
+                  {/* <div className="rating">
                     <span className="star">&#9733;</span>
                     <span className="star">&#9733;</span>
                     <span className="star">&#9733;</span>
                     <span className="star">&#9733;</span>
                     <span className="star">&#9734;</span>
-                  </div>
+                  </div> */}
                   <p className="user">{review.name}</p>
                 </div>
               </div>

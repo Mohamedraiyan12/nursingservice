@@ -5,6 +5,7 @@ import Contact from './Contact'
 import Teamlist from './Teamlist'
 import Testimonial from './Testimonial'
 import Careermain from './Careermain'
+import { Link } from 'react-router-dom'
 const Home = () => {
   return (
     <>
@@ -15,7 +16,7 @@ const Home = () => {
           <div className="homeleft">
           <h3>NURSING SERVICE AT <span>HOME</span></h3>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At minus, praesentium illo unde quasi quidem exercitationem repellat quae nemo debi</p>
-          < a href='/contact'><button>Book Now</button></a>
+          <Link to = '/contact'><button>Book Now</button></Link>
           </div>
           </div>
           <div className="col-md-6">
