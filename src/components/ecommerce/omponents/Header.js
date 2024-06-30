@@ -1,16 +1,15 @@
-
 import { Link } from 'react-router-dom'
 export default function Header() {
     return (
         <section className="header">
-            <div className="container">
+            <div className="container-fluid">
                 <div className=" row allheader">
-                    <div className="col-md-2">
+                    <div className="col-md-4">
                     <div className="leftheader">
                     <img src={require('../images/e-logo.png')} alt='images' width={40} height={40}/>
                     </div>
                     </div>
-                    <div className="col-md-6">
+                    <div className="col-md-4">
                     <div className="centerheader">
                     <input
                     type="text"

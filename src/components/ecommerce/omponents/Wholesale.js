@@ -1,14 +1,17 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer'
+import Wholesalehome from '../pages/Wholesalehome'
 const Wholesale = () => {
   return (
+    <>
+    <Header />
     <div>
-     <Header/>
-     <p>Whollesale</p>
-     <Footer />
+      <Wholesalehome />
     </div>
+    <Footer />
+    </>
   )
 }
 
-export default Wholesale;
+export default Wholesale

@@ -1,11 +1,12 @@
 import React from 'react'
 import Header from './Header'
 import Footer from './Footer' 
+import Retailhome from '../pages/Retailhome'
 const Retail = () => {
   return (
     <div>
         <Header />
-        <p>this retail shops</p>
+        <Retailhome />
         <Footer />
     </div>
   )
