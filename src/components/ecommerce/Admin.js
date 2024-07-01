@@ -27,7 +27,7 @@ const Admin = () => {
              onChange={handlechange}
              required />
           </div>
-          <div className="row">
+          <div className="row adminrow">
           <i className="bi bi-lock-fill"></i>
             <input type="password" onChange={handlechange} name= 'password' placeholder="Password" required />
           </div>

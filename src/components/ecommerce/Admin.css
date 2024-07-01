@@ -18,12 +18,12 @@
     width: 90%;
     padding: 20px;
   }
-  .wrapper form .row{
+  .wrapper form .adminrow{
     height: 45px;
     margin-bottom: 15px;
     position: relative;
   }
-  .wrapper form .row input{
+  .wrapper form .adminrow input{
     height: 100%;
     width: 100%;
     outline: none;
@@ -34,10 +34,10 @@
     transition: all 0.3s ease;
   }
   form .adminrow input:focus{
-    border-color: #16a085;
+    border-color: #1B9C85;
     box-shadow: inset 0px 0px 2px 2px rgba(26,188,156,0.25);
   }
-  form .row input::placeholder{
+  form .adminrow input::placeholder{
     color: #999;
   }
   .wrapper form .adminrow i{
@@ -46,18 +46,18 @@
     height: 100%;
     color: #fff;
     font-size: 18px;
-    background: #16a085;
-    border: 1px solid #16a085;
+    background: #1B9C85;
+    border: 1px solid #1B9C85;
     border-radius: 5px 0 0 5px;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .wrapper form .pass{
-    margin: -8px 0 20px 0;
+    margin: 20px 0 20px -10px;
   }
   .wrapper form .pass a{
-    color: #16a085;
+    color: #1B9C85;
     font-size: 17px;
     text-decoration: none;
   }
@@ -69,16 +69,16 @@
     font-size: 20px;
     font-weight: 500;
     padding-left: 0px;
-    background: #16a085;
-    border: 1px solid #16a085;
+    background: #1B9C85;
+    border: 1px solid #1B9C85;
     cursor: pointer;
   }
   form .button input:hover{
-    background: #12876f;
+    background: #1B9C85;
   }
   .wrapper form .signup-link{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 1px;
     font-size: 17px;
   }
   .wrapper form .signup-link a{
