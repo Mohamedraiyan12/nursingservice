@@ -16,7 +16,7 @@ const Admin = () => {
         console.log(details)
       }
    return (
-     <div className="container admin">
+      <div className="container admin">
       <div className="wrapper">
         <form onSubmit={submit}>
           <div className="row adminrow">
